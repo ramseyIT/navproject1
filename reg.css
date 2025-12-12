@@ -1,0 +1,164 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #333;
+    padding: 10px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+
+.site-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0; 
+}
+
+
+.nav-center {
+    display: flex;
+    gap: 20px; 
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+
+.register-button {
+    background-color: #007bff;
+    font-weight: bold;
+    
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 48%; 
+}
+
+.submit-button {
+    background-color: #28a745; 
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #1e7e34;
+}
+
+.reset-button {
+    background-color: #dc3545; 
+    color: white;
+}
+
+.reset-button:hover {
+    background-color: #bd2130;
+}
+
+.container {
+    
+    display: flex-end; 
+    justify-content: left; 
+    width: 100%; 
+    align-items: flex-start;
+}
+
+
+.container img {
+    
+    width: 250px; 
+    height: auto; 
+    
+    
+    border: 2px solid #007bff;
+    border-radius: 8px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+  
+    margin-right: 20px; 
+   
+    order: 2; 
+}
+
+
+.container .text {
+    
+    max-width: 60%; 
+    padding: 10%;
+    order: 1; 
+}
+
+.register{
+    margin-left: 500px;
+}
